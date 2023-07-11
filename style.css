@@ -76,6 +76,8 @@ body {
     font-weight: 400;
     line-height: 30px;
     padding: 24px 450px;
+    margin-bottom: 20px;
+
 }
 
 .feature-img-body {
@@ -163,6 +165,36 @@ body {
     margin-bottom: 100px;
 
 }
+
+/* card-price */
+.card-price {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 350px;
+    text-align: center;
+    margin: 0 200px;
+    display: flex;
+}
+
+
+
+.card-body {
+    /* border: 2px solid red; */
+    padding: 40px 0 10px 15px;
+    margin-right: 10%;
+}
+
+.card-desc {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card-img {
+    height: 200px;
+    width: auto;
+}
+
 
 /* service */
 
