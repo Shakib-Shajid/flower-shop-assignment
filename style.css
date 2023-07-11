@@ -1,5 +1,6 @@
 * {
     margin: 0;
+
 }
 
 body {
@@ -13,12 +14,7 @@ body {
     display: flex;
     gap: 30px;
     background-color: rgba(229, 84, 115, 0.10);
-
     align-items: center;
-
-    /* 
-    padding: 50px 240px 0px 240px;
- */
 }
 
 .header-part {
@@ -51,12 +47,144 @@ body {
 }
 
 .header-btn a {
+    color: white;
     text-decoration: none;
-    color: #FFF;
 
 }
 
 .header-img {
     padding: 20px 0px;
     width: 500px;
+}
+
+/* Main */
+
+/* Offer */
+.offer {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.offer-part {
+    justify-content: center;
+    padding: 150px 0 0 350px;
+    max-width: 40%;
+}
+
+.offer-title {
+    text-align: center;
+}
+
+.offer-desc {
+    padding: 24px 32px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.offer-btn {
+    margin-left: 40%;
+    justify-content: center;
+}
+
+.offer-img {
+    margin-bottom: 100px;
+
+}
+
+/* Instagram */
+
+.insta-title {
+    text-align: center;
+}
+
+.insta-desc {
+    text-align: center;
+}
+
+.instagram-img {
+    text-align: center;
+    margin-bottom: 130px;
+
+}
+
+
+.instagram-img img {
+    width: 220px;
+    height: 270px;
+    margin-right: 20px;
+}
+
+/* deal */
+
+
+.deal-part {
+
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 120px 285px 128px 285px;
+    background-image: url("images/Rectangle\ 9.png");
+    background-size: cover;
+
+}
+
+
+.deal-title {
+    padding-top: 55px;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.deal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.deal-part>input {
+    border-radius: 3px;
+    width: 500px;
+    height: 60px;
+    border: 0px;
+    margin-bottom: 70px;
+    margin-right: 7px;
+    padding-left: 15px;
+
+}
+
+/* footer */
+
+.footer-part {
+    background: #111010;
+    text-align: center;
+    padding: 100px 500px;
+
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+
 }
