@@ -59,21 +59,88 @@ body {
 
 /* Main */
 
+/* feature */
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.feature-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 450px;
+}
+
+.feature-img-body {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.feature-img {
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
+    padding: 75px 65px 0px 65px;
+    width: 200px;
+    height: 300px;
+
+}
+
+.feature-img-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-img-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-img-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-img-name {
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+
+
+}
+
 /* Offer */
 .offer {
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    gap: 150px;
 }
 
 .offer-part {
     justify-content: center;
-    padding: 150px 0 0 350px;
+    padding: 150px 0 0 250px;
     max-width: 40%;
+}
+
+.offer-text {
+    color: #E55473;
 }
 
 .offer-title {
     text-align: center;
+    font-size: 40px;
+
 }
 
 .offer-desc {
@@ -91,6 +158,7 @@ body {
 }
 
 .offer-img {
+    margin-top: 100px;
     margin-bottom: 100px;
 
 }
@@ -98,11 +166,22 @@ body {
 /* Instagram */
 
 .insta-title {
+    margin-top: 100px;
+    color: #272727;
     text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .insta-desc {
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 450px;
+    margin: 12px 0 30px 0;
+
 }
 
 .instagram-img {
